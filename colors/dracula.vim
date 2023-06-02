@@ -1,19 +1,20 @@
 runtime autoload/dracula.vim
 
 let g:dracula#palette.comment   = ['#7970A9', 103]
-" let g:dracula#palette.selection = ['#454158',  60]
 let g:dracula#palette.selection = ['#393448',  59]
-" current line bg color
-let g:dracula#palette.subtle = ['#262230',  36]
-
-let g:dracula#palette.bglighter = ['#393448',  59]
-let g:dracula#palette.bglight   = ['#2E2B3B',  59]
-
-" let g:dracula#palette.bg        = ['#22212C',  59]
+let g:dracula#palette.subtle    = ['#262230',  24]
+let g:dracula#palette.bglighter = ['#2E2B3B',  36]
+let g:dracula#palette.bglight   = ['#262230',  24]
 let g:dracula#palette.bg        = ['#000000',  0]
+let g:dracula#palette.bgdark    = ['#000000',  0]
+let g:dracula#palette.bgdarker  = ['#000000',  0]
 
-let g:dracula#palette.bgdark    = ['#17161D',  17]
-let g:dracula#palette.bgdarker  = ['#0B0B0F',  16]
+" let g:dracula#palette.selection = ['#454158',  60]
+" let g:dracula#palette.bglighter = ['#393448',  59]
+" let g:dracula#palette.bglight   = ['#2E2B3B',  59]
+" let g:dracula#palette.bg        = ['#22212C',  59]
+" let g:dracula#palette.bgdark    = ['#17161D',  17]
+" let g:dracula#palette.bgdarker  = ['#0B0B0F',  16]
 
 " Configuration: {{{
 
