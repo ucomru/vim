@@ -2,19 +2,12 @@ runtime autoload/dracula.vim
 
 let g:dracula#palette.comment   = ['#7970A9', 103]
 let g:dracula#palette.selection = ['#393448',  59]
-let g:dracula#palette.subtle    = ['#262230',  24]
 let g:dracula#palette.bglighter = ['#2E2B3B',  36]
 let g:dracula#palette.bglight   = ['#262230',  24]
 let g:dracula#palette.bg        = ['#000000',  0]
-let g:dracula#palette.bgdark    = ['#17161D',  17]
+let g:dracula#palette.bgdark    = ['#17161D',  18]
 let g:dracula#palette.bgdarker  = ['#0B0B0F',  16]
-
-" let g:dracula#palette.selection = ['#454158',  60]
-" let g:dracula#palette.bglighter = ['#393448',  59]
-" let g:dracula#palette.bglight   = ['#2E2B3B',  59]
-" let g:dracula#palette.bg        = ['#22212C',  59]
-" let g:dracula#palette.bgdark    = ['#17161D',  17]
-" let g:dracula#palette.bgdarker  = ['#0B0B0F',  16]
+" 'CursorLine': s:subtle => s:bglight
 
 " Configuration: {{{
 
@@ -207,7 +200,7 @@ call s:h('StatusLineNC', s:none, s:bglight)
 call s:h('StatusLineTerm', s:none, s:bglighter, [s:attrs.bold])
 call s:h('StatusLineTermNC', s:none, s:bglight)
 call s:h('WildMenu', s:bg, s:purple, [s:attrs.bold])
-call s:h('CursorLine', s:none, s:subtle)
+call s:h('CursorLine', s:none, s:bglight) " s:subtle
 
 hi! link ColorColumn  DraculaBgDark
 hi! link CursorColumn CursorLine
