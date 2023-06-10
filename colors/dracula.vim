@@ -1,13 +1,14 @@
 runtime autoload/dracula.vim
 
-let g:dracula#palette.comment   = ['#7970A9', 103]
+
+" Custom block: {{{
 let g:dracula#palette.selection = ['#393448',  59]
 let g:dracula#palette.bglighter = ['#2E2B3B',  36]
 let g:dracula#palette.bglight   = ['#262230',  24]
 let g:dracula#palette.bg        = ['#000000',  0]
-let g:dracula#palette.bgdark    = ['#17161D',  18]
-let g:dracula#palette.bgdarker  = ['#0B0B0F',  16]
 " 'CursorLine': s:subtle => s:bglight
+" }}}
+
 
 " Configuration: {{{
 
